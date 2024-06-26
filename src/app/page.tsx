@@ -1,7 +1,13 @@
+import { Typography } from "@mui/material";
+
 export default function Home() {
   return (
     <main>
-      <div>news wave website</div>
+      <div>
+        <p>news wave website</p>{" "}
+        <Typography variant="body2">news wave website</Typography>{" "}
+        <Typography component="p">news wave website</Typography>
+      </div>
     </main>
   );
 }
