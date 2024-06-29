@@ -1,9 +1,9 @@
+import NWButton from "../../reusable/NWButton";
+
 const Hero = () => {
   return (
-    <div>
-        <h1>
-            This is Hero component
-        </h1>
+    <div style={{marginTop: 10}}>
+        <NWButton>Hello</NWButton>
     </div>
   );
 };
